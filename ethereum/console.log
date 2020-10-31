@@ -1,0 +1,175 @@
+INFO [10-30|14:45:05.638] Starting Geth on Ethereum mainnet... 
+INFO [10-30|14:45:05.638] Bumping default cache on mainnet         provided=1024 updated=4096
+WARN [10-30|14:45:05.639] Sanitizing cache to Go's GC limits       provided=4096 updated=2700
+INFO [10-30|14:45:05.640] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [10-30|14:45:05.695] Set global gas cap                       cap=25000000
+INFO [10-30|14:45:05.695] Allocated trie memory caches             clean=675.00MiB dirty=675.00MiB
+INFO [10-30|14:45:05.695] Allocated cache and file handles         database=C:\dev\eth2\youtube1\geth\chaindata cache=1.32GiB handles=8192
+INFO [10-30|14:45:06.037] Opened ancient database                  database=C:\dev\eth2\youtube1\geth\chaindata\ancient
+INFO [10-30|14:45:06.038] Initialised chain configuration          config="{ChainID: 1 Homestead: 1150000 DAO: 1920000 DAOSupport: true EIP150: 2463000 EIP155: 2675000 EIP158: 2675000 Byzantium: 4370000 Constantinople: 7280000 Petersburg: 7280000 Istanbul: 9069000, Muir Glacier: 9200000, YOLO v1: <nil>, Engine: ethash}"
+INFO [10-30|14:45:06.038] Disk storage enabled for ethash caches   dir=C:\dev\eth2\youtube1\geth\ethash count=3
+INFO [10-30|14:45:06.038] Disk storage enabled for ethash DAGs     dir=C:\Users\RKL\AppData\Local\Ethash count=2
+INFO [10-30|14:45:06.038] Initialising Ethereum protocol           versions="[65 64 63]" network=1 dbversion=8
+INFO [10-30|14:45:06.040] Loaded most recent local header          number=0 hash="d4e567…cb8fa3" td=17179869184 age=51y6mo3w
+INFO [10-30|14:45:06.040] Loaded most recent local full block      number=0 hash="d4e567…cb8fa3" td=17179869184 age=51y6mo3w
+INFO [10-30|14:45:06.040] Loaded most recent local fast block      number=0 hash="d4e567…cb8fa3" td=17179869184 age=51y6mo3w
+INFO [10-30|14:45:06.040] Loaded local transaction journal         transactions=0 dropped=0
+INFO [10-30|14:45:06.041] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [10-30|14:45:06.060] Allocated fast sync bloom                size=1.32GiB
+INFO [10-30|14:45:06.062] Starting peer-to-peer node               instance=Geth/v1.9.23-stable-8c2f2715/windows-amd64/go1.15
+INFO [10-30|14:45:06.124] Initialized fast sync bloom              items=12356 errorrate=0.000 elapsed=62.832ms
+INFO [10-30|14:45:06.239] New local node record                    seq=3 id=2103893623df3df5 ip=127.0.0.1 udp=30303 tcp=30303
+INFO [10-30|14:45:06.240] Started P2P networking                   self=enode://b7a35138bda41917490a8d995d92783199de0a2143cfce49d0396db24175c0d032cfeb101f31b0f693964b5ccb2e27d957a3abc2d06e8e7dbf801884c2bab79c@127.0.0.1:30303
+INFO [10-30|14:45:06.240] IPC endpoint opened                      url=\\.\pipe\geth.ipc
+INFO [10-30|14:45:06.283] Etherbase automatically configured       address=0xbd87d9c2e9a11dB1B2AC04A9BE64b67b14589003
+INFO [10-30|14:45:16.240] Looking for peers                        peercount=0 tried=3 static=0
+INFO [10-30|14:45:19.459] New local node record                    seq=4 id=2103893623df3df5 ip=117.234.129.34 udp=55791 tcp=30303
+INFO [10-30|14:45:26.242] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|14:45:36.242] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|14:45:46.243] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|14:45:56.245] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|14:46:06.247] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|14:46:16.249] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|14:46:26.249] Looking for peers                        peercount=0 tried=3 static=0
+INFO [10-30|14:46:36.249] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|14:46:46.250] Looking for peers                        peercount=0 tried=5 static=0
+INFO [10-30|14:46:56.254] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|14:47:06.256] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|14:47:16.736] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|14:47:26.738] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|14:47:36.740] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|14:47:46.741] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|14:47:56.742] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|14:48:06.743] Looking for peers                        peercount=0 tried=3 static=0
+INFO [10-30|14:48:07.900] Block synchronisation started 
+INFO [10-30|14:48:16.745] Looking for peers                        peercount=1 tried=5 static=0
+INFO [10-30|14:48:20.984] Imported new block headers               count=192 elapsed=762.073ms number=192 hash="723899…123390" age=5y3mo4w
+INFO [10-30|14:48:20.985] Downloader queue stats                   receiptTasks=0 blockTasks=188 itemSize=109.57B throttle=8192
+INFO [10-30|14:48:20.985] Migrated ancient blocks                  count=1   elapsed=0s
+INFO [10-30|14:48:21.015] Imported new block headers               count=192 elapsed=15.956ms  number=384 hash="d3d5d5…c79cf3" age=5y3mo4w
+WARN [10-30|14:48:21.508] Node data write error                    err="trie node 37ed59…aff641 failed with all peers (0 tries, 0 peers)"
+INFO [10-30|14:48:21.508] Imported new state entries               count=105 elapsed=0s        processed=105 pending=1681 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [10-30|14:48:21.515] Imported new block receipts              count=2   elapsed=529.624ms number=2   hash="b495a1…4698c9" age=5y3mo4w  size=1.69KiB
+INFO [10-30|14:48:21.516] Loaded most recent local header          number=384 hash="d3d5d5…c79cf3" td=7225953107849 age=5y3mo4w
+INFO [10-30|14:48:21.516] Loaded most recent local full block      number=0   hash="d4e567…cb8fa3" td=17179869184   age=51y6mo3w
+INFO [10-30|14:48:21.516] Loaded most recent local fast block      number=0   hash="d4e567…cb8fa3" td=17179869184   age=51y6mo3w
+INFO [10-30|14:48:21.516] Loaded last fast-sync pivot marker       number=11152672
+WARN [10-30|14:48:21.516] Rolled back chain segment                header=384->384 fast=2->0 block=0->0 reason="syncing canceled (requested)"
+WARN [10-30|14:48:21.516] Synchronisation failed, retrying         err="trie node 37ed59…aff641 failed with all peers (0 tries, 0 peers)"
+INFO [10-30|14:48:26.746] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|14:48:36.748] Looking for peers                        peercount=0 tried=3 static=0
+INFO [10-30|14:48:46.750] Looking for peers                        peercount=0 tried=3 static=0
+INFO [10-30|14:48:56.751] Looking for peers                        peercount=0 tried=3 static=0
+INFO [10-30|14:49:10.763] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|14:49:20.765] Looking for peers                        peercount=0 tried=7 static=0
+INFO [10-30|14:49:30.767] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|14:49:40.768] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|14:49:50.769] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|14:50:00.770] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|14:50:10.771] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|14:50:20.772] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|14:50:30.773] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|14:50:40.774] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|14:50:50.775] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|14:51:00.777] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|14:51:10.778] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|14:51:20.779] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|14:51:30.780] Looking for peers                        peercount=0 tried=3 static=0
+INFO [10-30|14:51:40.782] Looking for peers                        peercount=0 tried=5 static=0
+INFO [10-30|14:51:50.784] Looking for peers                        peercount=0 tried=3 static=0
+INFO [10-30|14:52:00.784] Looking for peers                        peercount=0 tried=2 static=0
+INFO [10-30|14:52:10.785] Looking for peers                        peercount=0 tried=3 static=0
+INFO [10-30|14:52:20.786] Looking for peers                        peercount=0 tried=5 static=0
+INFO [10-30|14:52:30.786] Looking for peers                        peercount=0 tried=6 static=0
+INFO [10-30|14:52:40.790] Looking for peers                        peercount=0 tried=2 static=0
+INFO [10-30|14:52:50.791] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|14:53:00.792] Looking for peers                        peercount=0 tried=5 static=0
+INFO [10-30|14:53:11.801] Looking for peers                        peercount=0 tried=3 static=0
+WARN [10-30|14:53:18.182] Dropping unsynced node during fast sync  id=cd8f5c20b849a490 conn=dyndial addr=185.154.158.43:30303 type=Geth/v1.9.8-stable-d...
+INFO [10-30|14:53:21.801] Looking for peers                        peercount=0 tried=5 static=0
+INFO [10-30|14:53:31.802] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|14:53:41.804] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|14:53:52.287] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|14:54:02.288] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|14:54:12.290] Looking for peers                        peercount=0 tried=4 static=0
+WARN [10-30|14:54:17.913] Synchronisation failed, dropping peer    peer=cd8f5c20b849a490 err=timeout
+INFO [10-30|14:54:22.292] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|14:54:32.292] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|14:54:42.295] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|14:54:52.296] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|14:55:02.297] Looking for peers                        peercount=0 tried=2 static=0
+INFO [10-30|14:55:12.300] Looking for peers                        peercount=0 tried=6 static=0
+INFO [10-30|14:55:22.301] Looking for peers                        peercount=0 tried=2 static=0
+INFO [10-30|14:55:32.301] Looking for peers                        peercount=0 tried=2 static=0
+INFO [10-30|14:55:42.303] Looking for peers                        peercount=0 tried=3 static=0
+INFO [10-30|14:55:52.303] Looking for peers                        peercount=0 tried=7 static=0
+INFO [10-30|14:56:02.304] Looking for peers                        peercount=1 tried=6 static=0
+INFO [10-30|14:56:14.817] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|14:56:24.818] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|14:56:34.819] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|14:56:44.821] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|14:56:54.822] Looking for peers                        peercount=0 tried=4 static=0
+WARN [10-30|14:57:02.315] Synchronisation failed, dropping peer    peer=f85a50cb16919269 err=timeout
+INFO [10-30|14:57:04.822] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|14:57:14.823] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|14:57:24.824] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|14:57:34.826] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|14:57:44.828] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|14:57:54.829] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|14:58:04.831] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|14:58:14.831] Looking for peers                        peercount=0 tried=2 static=0
+INFO [10-30|14:58:24.832] Looking for peers                        peercount=0 tried=1 static=0
+INFO [10-30|14:58:34.833] Looking for peers                        peercount=0 tried=5 static=0
+INFO [10-30|14:58:44.835] Looking for peers                        peercount=0 tried=5 static=0
+INFO [10-30|14:58:54.836] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|14:59:04.837] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|14:59:15.754] Looking for peers                        peercount=0 tried=5 static=0
+INFO [10-30|14:59:27.351] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|14:59:37.352] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|14:59:47.353] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|14:59:57.354] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|15:00:07.673] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|15:00:17.675] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|15:00:27.675] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|15:00:37.676] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|15:00:47.679] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|15:00:57.680] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|15:01:07.681] Looking for peers                        peercount=0 tried=3 static=0
+INFO [10-30|15:01:17.682] Looking for peers                        peercount=0 tried=5 static=0
+INFO [10-30|15:01:27.683] Looking for peers                        peercount=0 tried=3 static=0
+INFO [10-30|15:01:37.684] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|15:01:47.684] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|15:01:57.688] Looking for peers                        peercount=0 tried=5 static=0
+INFO [10-30|15:02:07.690] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|15:02:20.200] Looking for peers                        peercount=0 tried=3 static=0
+INFO [10-30|15:02:30.202] Looking for peers                        peercount=0 tried=3 static=0
+INFO [10-30|15:02:40.204] Looking for peers                        peercount=0 tried=3 static=0
+INFO [10-30|15:02:50.205] Looking for peers                        peercount=0 tried=5 static=0
+INFO [10-30|15:03:00.208] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|15:03:10.700] Looking for peers                        peercount=0 tried=3 static=0
+INFO [10-30|15:03:20.701] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|15:03:30.702] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|15:03:40.704] Looking for peers                        peercount=0 tried=3 static=0
+INFO [10-30|15:03:50.707] Looking for peers                        peercount=0 tried=6 static=0
+INFO [10-30|15:04:00.709] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|15:04:10.710] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|15:04:20.712] Looking for peers                        peercount=0 tried=3 static=0
+INFO [10-30|15:04:30.713] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|15:04:40.715] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|15:04:50.716] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|15:05:00.718] Looking for peers                        peercount=0 tried=5 static=0
+INFO [10-30|15:05:10.720] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|15:05:20.721] Looking for peers                        peercount=0 tried=3 static=0
+INFO [10-30|15:05:31.728] Looking for peers                        peercount=0 tried=2 static=0
+INFO [10-30|15:05:41.729] Looking for peers                        peercount=0 tried=5 static=0
+WARN [10-30|15:05:42.893] Dropping unsynced node during fast sync  id=cd8f5c20b849a490 conn=dyndial addr=185.154.158.43:30303 type=Geth/v1.9.8-stable-d...
+INFO [10-30|15:05:51.730] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|15:06:01.731] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|15:06:11.733] Looking for peers                        peercount=0 tried=4 static=0
+INFO [10-30|15:06:18.868] IPC endpoint closed                      url=\\.\pipe\geth.ipc
+INFO [10-30|15:06:18.920] Deallocated fast sync bloom              items=12356 errorrate=0.000
+INFO [10-30|15:06:18.920] Ethereum protocol stopped 
+INFO [10-30|15:06:18.920] Transaction pool stopped 
+INFO [10-30|15:06:18.920] Writing clean trie cache to disk         path=C:\dev\eth2\youtube1\geth\triecache threads=8
+INFO [10-30|15:06:18.931] Persisted the clean trie cache           path=C:\dev\eth2\youtube1\geth\triecache elapsed=10.973ms
+INFO [10-30|15:06:18.931] Blockchain stopped 
