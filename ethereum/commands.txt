@@ -1,0 +1,1 @@
+geth --datadir "C:\dev\eth2\youtube1" init "C:\dev\eth2\genesis.json"
