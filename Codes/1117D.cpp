@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 
-using namespace std;
+// removed a line. Find it.
 
 long long int x1, y1, x2, y2, n;
 string s;
